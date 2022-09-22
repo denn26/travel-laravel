@@ -1,0 +1,94 @@
+body {
+  background-color: #E0E5FF;
+  font-family: "Poppins", sans-serif;
+  color: #4462FF;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #555555;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #4462FF !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #4462FF;
+  color: #ffffff;
+}
+.btn-login:hover {
+  background-color: #113FA9;
+  color: #ffffff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/back.png");
+  background-size: cover;
+}
+header h1, header p {
+  color: #fff;
+}
+header .btn-get-started {
+  background-color: #ffaa69;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.section-stats p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #4462FF;
+  margin-top: -50px;
+  margin-bottom: -230;
+}
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+.section-popular .section-popular-heading h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */

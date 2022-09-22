@@ -1,0 +1,123 @@
+body {
+    background-color: #E0E5FF;
+    font-family: 'Poppins', sans-serif;
+    color: #4462FF;
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link{
+            color: #555555;
+
+            &.active {
+                font-weight: bold;
+                color: #4462FF !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #4462FF;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #113FA9;
+        color: #ffffff;
+    }
+}
+
+// Header
+
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/back.png');
+    background-size: cover;
+
+
+    h1, p {
+        color: #fff;
+    }
+
+    .btn-get-started {
+        background-color: #ffaa69;
+    }
+}
+
+// statistik
+
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+// populer
+
+.section-popular {
+    min-height: 540px;
+    background-color: #4462FF;
+    margin-top: -50px;
+    margin-bottom: -230;
+
+    .section-popular-heading {
+        margin-top: 150px;
+
+        h2, p {
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: black;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+    }
+}
